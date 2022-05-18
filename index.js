@@ -15,7 +15,7 @@ module.exports = function gulpGutt (params) {
 		var template
 
 		try {
-			template = gutt.parseFile(file.path, params.cwd).stringifyWith(params.stringifier)
+			template = gutt.parseFile(file.path, params.cwd, params).stringifyWith(params.stringifier)
 		} catch (e) {
 			if (params.showError) {
 				return next(new PluginError('gulp-gutt', e.message))
