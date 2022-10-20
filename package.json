@@ -1,6 +1,6 @@
 {
   "name": "gulp-gutt",
-  "version": "0.4.3",
+  "version": "0.5.0",
   "description": "Gulp plugin for Gutt — expreremental templater",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   "homepage": "https://guttjs.com/usage.html#gulp",
   "dependencies": {
     "gulp-util": "^3.0.8",
-    "gutt": "^0.4.2",
+    "gutt": "^0.5.0",
     "through2": "^2.0.3"
   }
 }
