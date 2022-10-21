@@ -1,8 +1,6 @@
 var through = require('through2')
 var gutt = require('gutt')
-var gutil = require('gulp-util')
-
-var PluginError = gutil.PluginError
+var PluginError = require('plugin-error')
 
 module.exports = function gulpGutt (params) {
 	if (typeof params === 'function') params = {
